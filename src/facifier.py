@@ -21,6 +21,12 @@ def analyze_picture(model_gender, path, window_size, window_name='static'):
             cv2.rectangle(image, (x,y), (x+w, y+h), (0,0,255), 2)
         else:
             cv2.rectangle(image, (x,y), (x+w, y+h), (255,0,0), 2)
+        text1="Male"
+        text2="Female"
+        if (gender_prediction[0] == 0):
+            cv2.putText(image,text2,(x,y-10), cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2,cv2.LINE_AA)
+        else:
+            cv2.putText(image,text1,(x,y-10), cv2.FONT_HERSHEY_SIMPLEX,1,(0,255,0),2,cv2.LINE_AA)
         #cv2.putText(image, emotions[emotion_prediction[0]], (x,y-10), cv2.FONT_HERSHEY_SIMPLEX, 1, (0,255,255), 2)
     cv2.imshow(window_name, image)
     key = cv2.waitKey(0)
