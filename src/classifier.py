@@ -35,7 +35,7 @@ if __name__ == '__main__':
     fisher_face_gender = cv2.face.FisherFaceRecognizer_create()
     fisher_face_gender.read('models/gender_classifier_model.xml')
     run_loop = True
-    window_name = "Facifier Static (press ESC to exit)"
+    window_name = "Photo Upload (press ESC to exit)"
     print("Default path is set to ../test_sample/")
     print("Type q or quit to end program")
     while run_loop:
