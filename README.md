@@ -8,7 +8,12 @@ u have to give file name in terminal.
 
 - gui.py recognize gender via uploading photos which is based on gui
 
-![GUI](output/gender.PNG)
+1. ![GUI](output/gender.PNG)
 
+1. ![GUI](output/2.PNG)
+
+1. ![GUI](output/3.PNG)
 
 - webcam.py recognize gender via webcam. :)
+
+![webcam](output/1.PNG)
