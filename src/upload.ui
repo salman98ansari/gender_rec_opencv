@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1067</width>
-    <height>623</height>
+    <width>1086</width>
+    <height>628</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -79,6 +79,32 @@ font-size:20px;</string>
 background-color: rgb(255, 255, 255);
 color:black;
 font-size:20px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="webcam">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>540</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#webcam{
+color:black;
+background-color:#fefefe;
+border: 2px solid #58e870; border-radius:30px;
+font: 12pt &quot;TImes New Roman&quot;;
+}
+QPushButton#webcam:hover
+{
+   background-color:blue;
+	color:white;
+}</string>
+    </property>
+    <property name="text">
+     <string>WebCam</string>
     </property>
    </widget>
   </widget>
