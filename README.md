@@ -10,8 +10,6 @@ u have to give file name in terminal.
 
 ![GUI](output/gender.PNG)
 
-![GUI](output/2.PNG)
-
 ![GUI](output/3.PNG)
 
 ## - guiwebcam.py recognize gender via Webcam and uploading photo based on GUI :)
