@@ -8,11 +8,23 @@ u have to give file name in terminal.
 
 - gui.py recognize gender via uploading photos which is based on gui
 
-1. ![GUI](output/gender.PNG)
+![GUI](output/gender.PNG)
 
-1. ![GUI](output/2.PNG)
+![GUI](output/2.PNG)
 
-1. ![GUI](output/3.PNG)
+![GUI](output/3.PNG)
 
-- guiwebcam.py recognize gender via Webcam and uploading photo based on GUI :)
+## - guiwebcam.py recognize gender via Webcam and uploading photo based on GUI :)
+
+![GUI](output/gui.PNG)
+##### GUI overlook
+
+![GUI](output/upload.PNG)
+##### Upload File detection
+
+![GUI](output/Capture.PNG)
+##### From Camera open From GUI i.e Male
+
+![GUI](output/s.PNG)
+##### From Camera open From GUI i.e female
 
